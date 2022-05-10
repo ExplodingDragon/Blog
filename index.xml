@@ -6,14 +6,32 @@
     <description>Recent content on Dragon &#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 May 2022 15:03:52 +0800</lastBuildDate><atom:link href="https://blog.open-edgn.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 May 2022 15:38:52 +0800</lastBuildDate><atom:link href="https://blog.open-edgn.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>All in Kubernetes</title>
+      <link>https://blog.open-edgn.tech/posts/all-in-kubernetes/</link>
+      <pubDate>Tue, 10 May 2022 15:38:52 +0800</pubDate>
+      
+      <guid>https://blog.open-edgn.tech/posts/all-in-kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RPM 打包</title>
+      <link>https://blog.open-edgn.tech/posts/rpm-pack/readme/</link>
+      <pubDate>Tue, 10 May 2022 15:38:52 +0800</pubDate>
+      
+      <guid>https://blog.open-edgn.tech/posts/rpm-pack/readme/</guid>
+      <description>RPM 打包教程 FROM centos:7 RUN yum install -y gcc gcc-c++ \ libtool libtool-ltdl \ make cmake \ git \ pkgconfig \ sudo \ automake autoconf \ yum-utils rpm-build rpmdevtools &amp;amp;&amp;amp; \ yum clean all RUN useradd builder -u 1000 -m -G users,wheel &amp;amp;&amp;amp; \ echo &amp;#34;builder ALL=(ALL:ALL) NOPASSWD:ALL&amp;#34; &amp;gt;&amp;gt; /etc/sudoers &amp;amp;&amp;amp; \ echo &amp;#34;# macros&amp;#34; &amp;gt; /home/builder/.rpmmacros &amp;amp;&amp;amp; \ echo &amp;#34;%_topdir /home/builder/rpm&amp;#34; &amp;gt;&amp;gt; /home/builder/.rpmmacros &amp;amp;&amp;amp; \ echo &amp;#34;%_sourcedir %{_topdir}&amp;#34; &amp;gt;&amp;gt; /home/builder/.</description>
+    </item>
+    
     <item>
       <title>你好世界</title>
-      <link>https://blog.open-edgn.tech/posts/my-first-post/</link>
+      <link>https://blog.open-edgn.tech/posts/hello-world/</link>
       <pubDate>Tue, 10 May 2022 15:03:52 +0800</pubDate>
       
-      <guid>https://blog.open-edgn.tech/posts/my-first-post/</guid>
-      <description></description>
+      <guid>https://blog.open-edgn.tech/posts/hello-world/</guid>
+      <description>你好世界   </description>
     </item>
     
   </channel>
