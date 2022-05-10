@@ -1,6 +1,6 @@
-baseURL = 'https://blog.open-edgn.tech/ http://blog.open-edgn.tech/'
+baseURL = 'https://blog.open-edgn.tech/'
 languageCode = 'zh-cn'
-title = 'My New Hugo Site'
+title = "Dragon 's Blog"
  theme = 'PaperMod'
  [markup]
   [markup.asciidocExt]
